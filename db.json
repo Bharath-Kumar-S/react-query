@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Bharath",
+            "alias": "BK"
+        },
+         {
+            "id": 2,
+            "name": "Ramya",
+            "alias": "RB"
+        },
+         {
+            "id": 3,
+            "name": "Vijaya",
+            "alias": "VB"
+        }
+    ]
+}
