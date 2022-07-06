@@ -18,7 +18,7 @@ const Userspage = () => {
 
   return (
     <>
-      <h2>Users</h2>
+      <h2>Traditional Users</h2>
       {data.map((hero) => {
         return <div>{hero.name}</div>;
       })}

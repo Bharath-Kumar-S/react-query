@@ -12,13 +12,26 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
+        <nav>
+          <ul>
+            <li>
+              <Link to="home">Home</Link>
+            </li>
+            <li>
+              <Link to="rqusers">RQuserspage</Link>
+            </li>
+            <li>
+              <Link to="users">Userspage</Link>
+            </li>
+          </ul>
+        </nav>
         <Routes>
           <Route path="users" element={<Userspage />} />
           <Route path="rqusers" element={<RQuserspage />} />
           <Route path="home" element={<Homepage />} />
         </Routes>
       </BrowserRouter>
-      <ReactQueryDevtools initialIsOpen={false} position='bottom-right'/>
+      <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
     </QueryClientProvider>
   );
 }
